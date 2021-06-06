@@ -389,7 +389,7 @@ socket.on('game_update', (payload) => {
         }
       }
 
-      /*Check this spot for errors */
+      /* Create timer */
       clearInterval(interval_timer)
       interval_timer = setInterval(((last_time) => {
           return( () => {
